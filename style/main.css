@@ -1,0 +1,21 @@
+table tr td{
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+.table2{
+    width: 100px;
+    height: 100px;
+}
+#box{
+    width: 300px;
+    height: 300px;
+    background-image: url("https://media.tenor.com/oO-Zeqd99WcAAAAC/ricardo-milos-dance.gif");
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+#box:hover{
+    background-image: url("https://media.tenor.com/TkurTwU18zUAAAAd/skibidi-dop-dop-200fps.gif");
+    transform: rotateZ(360deg);
+}
